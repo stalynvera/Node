@@ -6,9 +6,6 @@ const Navbar = () => {
            <Link href="/Categorias">
            Categorias
            </Link>
-           <Link href="/SubCategoria">
-           Productos
-           </Link>
          </div>
     )
     

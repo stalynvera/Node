@@ -1,12 +1,20 @@
 
-import Saludo2 from '../componentes/Saludo2'
+import Categoria from '../componentes/Categoria'
 import Tarjeta from '../componentes/Tarjeta'
+import Link from "next/link"
 const Inicio = () => {
     return (
         <div>
-            <Saludo2/>
+            <Categoria/>
             <Tarjeta/>
+            <Link href="/Categorias/SubCategorias">
+                Ir a SubCategorias
+            </Link>
         </div>
     )
 }
 export default Inicio
+
+
+
+
