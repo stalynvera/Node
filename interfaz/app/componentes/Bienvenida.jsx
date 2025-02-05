@@ -1,9 +1,15 @@
+import Portada from '../componentes/Portada'
 const bienvenida = () => {
 return(
-    <h1>
+     <div>
+      <Portada/>
         Hola, mundo!
-    </h1>
+        </div>
   )
 
 }
 export default bienvenida
+
+
+
+
