@@ -1,7 +1,7 @@
 const saludo2 = () => {
     return (
         <h1>
-            mi nombre es Stalyn Soledispa
+            estamos en categorias
         </h1>
     )
 }
